@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.5 (30/DEC/2020)
+* Introduces new versioning of Major.Minor.Patch<b>L</b>(Eg.. 4.0.5<b>L</b>) for the legacy Conviva JavaScript HTML5 Integrations to be able to differentiate from the Simplified Integrations.
+
 ## 4.0.4 (07/MAY/2020)
 * Uses 2.151.0.xxxxx series versioning for older integrations that use Core SDK version 4.x+.
 
