@@ -1,7 +1,7 @@
 
 # Changelog
 
-### 4.0.6 (13/MAY/2021)
+### 4.0.7 (13/MAY/2021)
 * Enhances the Conviva inference logic in low bandwidth and seek scenarios to detect the PLAYING state from the play head position with in ~ 1 sec, as the playing event is not reliable.
 * Fixes the player state issues of:
   * False PLAYING and BUFFERING states on timeupdate event for those instances where the currentTime returns 0 on playing event, as Conviva inference logic relies on timeupdate event counter when the currentTime is 0.
