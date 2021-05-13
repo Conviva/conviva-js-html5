@@ -1,6 +1,14 @@
 
 # Changelog
 
+### 4.0.6 (13/MAY/2021)
+* Enhances the Conviva inference logic in low bandwidth and seek scenarios to detect the PLAYING state from the play head position with in ~ 1 sec, as the playing event is not reliable.
+* Fixes the player state issues of:
+  * False PLAYING and BUFFERING states on timeupdate event for those instances where the currentTime returns 0 on playing event, as Conviva inference logic relies on timeupdate event counter when the currentTime is 0.
+  * False PLAYING state in Windows Internet Explorer and Edge during seeking as the pause event is not triggered.
+  * UNKNOWN player state at end of midroll.
+* Fixes the issue of duration auto collected with Number.MAX_VALUE(1.7976931348623157e+308) for the DASH Live content.
+
 ## 4.0.5 (30/DEC/2020)
 * Introduces new versioning of Major.Minor.Patch<b>L</b>(Eg.. 4.0.5<b>L</b>) for the legacy Conviva JavaScript HTML5 Integrations to be able to differentiate from the Simplified Integrations.
 
