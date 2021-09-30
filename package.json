@@ -1,0 +1,19 @@
+{
+  "name": "@convivainc/conviva-js-html5",
+  "version": "4.0.7",
+  "description": "Conviva HTML5 Video Element module",
+  "main": "conviva-html5native-impl.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conviva/conviva-js-html5.git"
+  },
+  "keywords": [
+    "html5",
+    "conviva"
+  ],
+  "author": "Conviva Inc",
+  "bugs": {
+    "url": "https://github.com/Conviva/conviva-js-html5/issues"
+  },
+  "homepage": "https://github.com/Conviva/conviva-js-html5#readme"
+}
