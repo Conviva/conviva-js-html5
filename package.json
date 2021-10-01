@@ -12,6 +12,7 @@
     "conviva"
   ],
   "author": "Conviva Inc",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Conviva/conviva-js-html5/issues"
   },
