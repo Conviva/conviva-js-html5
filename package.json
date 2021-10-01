@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Conviva/conviva-js-html5/issues"
   },
-  "homepage": "https://github.com/Conviva/conviva-js-html5#readme"
+  "homepage": "https://github.com/Conviva/conviva-js-html5#readme",
+  "dependencies": {
+    "@convivainc/conviva-js-coresdk": "^4.4.3"
+  }
 }
