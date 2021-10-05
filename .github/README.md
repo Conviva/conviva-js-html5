@@ -15,5 +15,11 @@ The Conviva JavaScript HTML5 Video Element module is built on top of <a href="ht
 npm install @convivainc/conviva-js-html5 --save
 ```
 
+## Install via yarn 
+
+```
+yarn add @convivainc/conviva-js-html5
+```
+
 ## Note:
 * Refer https://community.conviva.com/ for integration guidelines.
