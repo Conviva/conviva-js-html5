@@ -1,6 +1,12 @@
 
 # Changelog
 
+### 4.0.8 (24/MAY/2022)
+* Enhances the Conviva inference logic for browser if its running in background.
+There is a browser limitation such that setTimeOut interval is increased to 1sec from 250ms if its running in backgroung, causing the playhead position to update late.
+Hence the check to detect false PLAYING state if play head position with in ~ 1 sec if application is forground, and within ~ 4 secs if application is background is added.
+ 
+
 ### 4.0.7 (13/MAY/2021)
 * Enhances the Conviva inference logic in low bandwidth and seek scenarios to detect the PLAYING state from the play head position with in ~ 1 sec, as the playing event is not reliable.
 * Fixes the player state issues of:
