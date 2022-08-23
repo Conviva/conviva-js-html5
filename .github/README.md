@@ -4,9 +4,19 @@ Conviva HTML5 Video Element module auto-detects events emitted by HTML5 and &lt;
 ## Offline Library
 The Conviva JavaScript HTML5 Video Element module is built on top of <a href="https://github.com/Conviva/conviva-js-coresdk">conviva-core-sdk</a>, is shared as offline library and should be included via the <script> tag in the application.
 
+Via html:
 ```
 <script type="text/javascript" src="<PATH>/conviva-core-sdk.js"></script>
 <script type="text/javascript" src="<PATH>/conviva-html5native-impl.js"></script>
+```
+Via import/require:
+```
+import Conviva from '@convivainc/conviva-js-coresdk'
+import ConvivaHtml5Module from'@convivainc/ conviva-html5native-impl'
+```
+```
+const Conviva = require('<path>/conviva-js-coresdk');
+const ConvivaHtml5Module = require('<path>/ conviva-html5native-impl');
 ```
 
 ## Install via npm 
