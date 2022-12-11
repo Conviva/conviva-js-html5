@@ -1,6 +1,9 @@
 
 # Changelog
 
+### 4.0.10 (11/DEC/2022)
+* Supports Typescript. 
+
 ### 4.0.8 (24/MAY/2022)
 * Enhances the Conviva inference logic for browser if its running in background.
 There is a browser limitation such that setTimeOut interval is increased to 1sec from 250ms if its running in backgroung, causing the playhead position to update late.
