@@ -1,6 +1,9 @@
 
 # Changelog
 
+### 4.0.11 (2/MAY/2024)
+* Fixes issue of typescript definition file doesn’t have the same name as the js file, so the IDE does not associate them.. 
+
 ### 4.0.10 (11/DEC/2022)
 * Supports Typescript. 
 
