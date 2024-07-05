@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.12 (5/JUL/2024)
+* Fixes issue of Module version mismatch reported in cws protocol heartbeat in the 4.0.11 build .
+
 ### 4.0.11 (2/MAY/2024)
 * Fixes issue of typescript definition file doesn’t have the same name as the js file, so the IDE does not associate them.. 
 
