@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.0.13 (22/NOV/2024)
+* Added  support for audio only content.
+
 ## 4.0.12 (5/JUL/2024)
 * Fixes issue of Module version mismatch reported in cws protocol heartbeat in the 4.0.11 build .
 
